@@ -1,0 +1,24 @@
+( DOWLOAD )
+1) CREATE FOLDER 
+2) DOWLOAD FILES FROM GITHUB
+3) MOVE DOWLOADED FILES TO THE CREATED FOLDER
+
+
+( LAUNCH )
+1) cd CREATED_FOLER
+2) npm install
+3) npm run dev
+
+( OTHER INSTALL ) 
+( ! CREATE ANOTHER TERMINAL ! )
+1) npm i react-router-dom
+2) npm install swiper
+3) npm install react-modal
+
+1) React-Root-Dom
+2) Слайдер
+3) Сортировка продуктов по стоимости
+4) Поиск по наименованию
+5) Корзина
+6) Товары выводятся через предоставляемую API
+7) Дизайн веб-сайта удобный, понятный, адаптивный 

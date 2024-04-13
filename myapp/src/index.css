@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition: 0.45s;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.section{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+@media(max-width: 1300px){
+  .section{
+    max-width: 90vw;
+  }
+}
+.swiper-backface-hidden .swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello1{
+  padding: 70px 0;
+  background: url(../public/media/ban.jpg) no-repeat;
+  background-size: contain;
+  width: 1200px;
+  height: 800px;
+  border-radius: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  align-items: center;
+  gap: 20px;
+}
+.hello{
+  padding: 70px 0;
+
+}
+.hello h1{
+  font-size: 32px;
+  color: #8ABCFF;
+}
+.hello1 h1{
+  font-size: 32px;
+  color: #8ABCFF;
+}
+.hello h2{
+  font-size: 20px;
+  font-weight: 400;
+}
+.hello1 h2{
+  font-size: 20px;
+  font-weight: 400;
+}
+.popular{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  grid-gap: 40px;
+  padding-top: 110px;
+}
+
+.popular h1{
+  font-size: 32px;
+  color: #8ABCFF;
+}
+
+.catalog{
+  display: flex;
+  justify-content: center;
+  grid-gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.product-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-gap: 30px;
+  padding-top: 70px;
+}
+
+.settings{
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

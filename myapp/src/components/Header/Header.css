@@ -1,0 +1,29 @@
+.header{
+    padding-top: 40px;
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-block__left{
+    display: flex;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.header-block__left-link{
+    color: #000;
+    cursor: pointer;
+}
+
+.header-block__left-link:hover{
+    color: #8ABCFF;
+}
+
+.header-block__logo img{
+    width: 500px;
+    height: 500px;
+}
